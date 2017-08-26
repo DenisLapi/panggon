@@ -510,3 +510,61 @@ body {
     }
   }
 }
+
+
+// Footer
+footer {
+  background: #262f3d;
+  padding: 80px 0;
+  .container {
+    p {
+      font-family: $font-primary;
+      font-size: 13px;
+      color: #fff;
+      line-height: 22px;
+      opacity: 0.8;
+    }
+    .list-title {
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+    ul {
+      padding: 0;
+      list-style: none;
+      margin: 0;
+      li {
+        margin-bottom: 10px;
+        a {
+          text-decoration: none;
+          font-family: $font-primary;
+          font-size: 13px;
+          color: #fff;
+          opacity: 0.7;
+          transition: all 0.5s ease;
+          &:hover {
+            opacity: 1;
+          }
+        }
+        .contact-email {
+          color: #5ed98f;
+        }
+        .fa {
+          margin-right: 5px;
+        }
+      }
+    }
+    button {
+      background: #5ed98f;
+      height: 45px;
+      padding: 0 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: 500;
+      font-family: $font-primary;
+      font-size: 13px;
+      color: #fff;
+      outline: none;
+    }
+  }
+}
