@@ -442,3 +442,71 @@ body {
     }
   }
 }
+
+
+// Testimonials
+#testimonials {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,daf6e5+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #daf6e5 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#daf6e5 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%,#daf6e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#daf6e5',GradientType=0 ); /* IE6-9 */
+  .container {
+    h1 {
+      color: #666666;
+      font-weight: 500;
+      font-family: $font-primary;
+      font-size: 25px;
+      margin-top: 100px;
+    }
+    .testimonials-row {
+      margin: 100px 0 150px 0;
+      .testimonial-box {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        .image-frame {
+          width: 75px;
+          height: 75px;
+          border-radius: 50%;
+          background: #262f3d;
+          position: relative;
+          overflow: hidden;
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 110%;
+          }
+        }
+        .client-testimonial {
+          padding-left: 20px;
+          .text {
+            margin-top: 0px;
+            font-weight: 300;
+            font-family: $font-primary;
+            font-size: 13px;
+            font-style: italic;
+            color: #555555;
+          }
+          .signature {
+            font-weight: 600;
+            font-family: $font-primary;
+            font-size: 14px;
+            color: #555555;
+          }
+          .position-and-company {
+            margin-top: 0;
+            font-family: $font-primary;
+            font-size: 13px;
+            color: #555555;
+            span {
+              color: #5ed98f;
+            }
+          }
+        }
+      }
+    }
+  }
+}
