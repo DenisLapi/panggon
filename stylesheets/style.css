@@ -10,13 +10,14 @@ body {
   text-align: center;
 }
 
-/* line 13, ../sass/style.scss */
-header {
-  background: #262f3d;
-  height: 500px;
+/* line 14, ../sass/style.scss */
+#cover-top {
+  position: relative;
+  background: url("../images/cover.png") no-repeat center top;
+  background-size: 100%;
 }
-/* line 17, ../sass/style.scss */
-header .container .trigger-menu-button {
+/* line 19, ../sass/style.scss */
+#cover-top .container .trigger-menu-button {
   margin-left: auto;
   width: 40px;
   height: 40px;
@@ -26,23 +27,23 @@ header .container .trigger-menu-button {
   color: #fff;
   display: none;
 }
-/* line 27, ../sass/style.scss */
-header .container nav {
+/* line 29, ../sass/style.scss */
+#cover-top .container nav {
   height: 80px;
   display: flex;
   align-items: center;
 }
-/* line 31, ../sass/style.scss */
-header .container nav .menu {
+/* line 33, ../sass/style.scss */
+#cover-top .container nav .menu {
   margin-left: auto;
   list-style: none;
 }
-/* line 34, ../sass/style.scss */
-header .container nav .menu li {
+/* line 36, ../sass/style.scss */
+#cover-top .container nav .menu li {
   display: inline-block;
 }
-/* line 36, ../sass/style.scss */
-header .container nav .menu li a {
+/* line 38, ../sass/style.scss */
+#cover-top .container nav .menu li a {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -51,31 +52,31 @@ header .container nav .menu li a {
   padding: 15px 20px;
   transition: opacity 0.2s ease;
 }
-/* line 45, ../sass/style.scss */
-header .container nav .menu li a:hover {
+/* line 47, ../sass/style.scss */
+#cover-top .container nav .menu li a:hover {
   opacity: 0.5;
 }
-/* line 48, ../sass/style.scss */
-header .container nav .menu li .link-button {
+/* line 50, ../sass/style.scss */
+#cover-top .container nav .menu li .link-button {
   border: 2px solid #fff;
-  border-radius: 4px;
+  border-radius: 8px;
 }
-/* line 55, ../sass/style.scss */
-header .container h1 {
+/* line 57, ../sass/style.scss */
+#cover-top .container h1 {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   color: #fff;
   margin-top: 130px;
 }
-/* line 62, ../sass/style.scss */
-header .container p {
+/* line 64, ../sass/style.scss */
+#cover-top .container p {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #fff;
 }
-/* line 68, ../sass/style.scss */
-header .responsive-menu {
+/* line 70, ../sass/style.scss */
+#cover-top .responsive-menu {
   transition: 1s;
   background: #262f3d;
   border-right: 1px solid #1a2028;
@@ -85,26 +86,26 @@ header .responsive-menu {
   top: 80px;
   left: -100%;
 }
-/* line 77, ../sass/style.scss */
-header .responsive-menu .menu {
+/* line 79, ../sass/style.scss */
+#cover-top .responsive-menu .menu {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 81, ../sass/style.scss */
-header .responsive-menu .menu li {
+/* line 83, ../sass/style.scss */
+#cover-top .responsive-menu .menu li {
   align-items: center;
   display: flex;
   padding: 20px;
   border-bottom: 1px solid #1a2028;
   transition: all 0.5s ease;
 }
-/* line 87, ../sass/style.scss */
-header .responsive-menu .menu li .trigger-menu-button {
+/* line 89, ../sass/style.scss */
+#cover-top .responsive-menu .menu li .trigger-menu-button {
   margin-left: auto;
 }
-/* line 90, ../sass/style.scss */
-header .responsive-menu .menu li a {
+/* line 92, ../sass/style.scss */
+#cover-top .responsive-menu .menu li a {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -112,53 +113,266 @@ header .responsive-menu .menu li a {
   text-decoration: none;
   transition: opacity 0.2s ease;
 }
-/* line 98, ../sass/style.scss */
-header .responsive-menu .menu li a:hover {
+/* line 100, ../sass/style.scss */
+#cover-top .responsive-menu .menu li a:hover {
   opacity: 0.5;
 }
-/* line 102, ../sass/style.scss */
-header .responsive-menu .menu:first-child {
+/* line 104, ../sass/style.scss */
+#cover-top .responsive-menu .menu:first-child {
   border-top: 1px solid #1a2028;
 }
-/* line 105, ../sass/style.scss */
-header .responsive-menu .menu li:hover {
+/* line 107, ../sass/style.scss */
+#cover-top .responsive-menu .menu li:hover {
   background: #293445;
 }
-/* line 110, ../sass/style.scss */
-header .is-open {
+/* line 112, ../sass/style.scss */
+#cover-top .is-open {
   left: 0;
 }
+/* line 115, ../sass/style.scss */
+#cover-top .destination-seach-form {
+  background: #fff;
+  margin: 50px auto 140px;
+  border-radius: 8px;
+  padding: 40px;
+  width: 800px;
+  display: table;
+}
+/* line 122, ../sass/style.scss */
+#cover-top .destination-seach-form .row-column {
+  display: flex;
+}
+/* line 124, ../sass/style.scss */
+#cover-top .destination-seach-form .row-column .column {
+  margin-right: 15px;
+}
+/* line 126, ../sass/style.scss */
+#cover-top .destination-seach-form .row-column .column:last-child {
+  margin-right: 0;
+}
+/* line 131, ../sass/style.scss */
+#cover-top .destination-seach-form label {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #777;
+}
+/* line 136, ../sass/style.scss */
+#cover-top .destination-seach-form label .fa {
+  margin-right: 10px;
+  color: #5ed98f;
+  font-size: 20px;
+}
+/* line 142, ../sass/style.scss */
+#cover-top .destination-seach-form input[type="text"] {
+  background: #f3faf6;
+  padding: 0 15px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #555555;
+  outline: none;
+  margin-top: 15px;
+}
+/* line 155, ../sass/style.scss */
+#cover-top .destination-seach-form .search-button {
+  background: #5ed98f;
+  height: 45px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #fff;
+  outline: none;
+  width: 120px;
+  margin-top: 33px;
+}
 
-@media only screen and (max-width: 550px) {
-  /* line 118, ../sass/style.scss */
-  header .container .trigger-menu-button {
+@media only screen and (max-width: 915px) {
+  /* line 174, ../sass/style.scss */
+  #cover-top .destination-seach-form {
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  /* line 178, ../sass/style.scss */
+  #cover-top .destination-seach-form .row-column {
     display: block;
   }
-  /* line 122, ../sass/style.scss */
-  header .container nav .menu {
+  /* line 180, ../sass/style.scss */
+  #cover-top .destination-seach-form .row-column .column {
+    margin: 0;
+    margin-top: 20px;
+  }
+  /* line 183, ../sass/style.scss */
+  #cover-top .destination-seach-form .row-column .column input {
+    width: 100%;
+  }
+  /* line 186, ../sass/style.scss */
+  #cover-top .destination-seach-form .row-column .column:last-child {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 550px) {
+  /* line 198, ../sass/style.scss */
+  #cover-top .container .trigger-menu-button {
+    display: block;
+  }
+  /* line 202, ../sass/style.scss */
+  #cover-top .container nav .menu {
     display: none;
   }
-  /* line 126, ../sass/style.scss */
-  header .container h1 {
+  /* line 206, ../sass/style.scss */
+  #cover-top .container h1 {
     margin-top: 80px;
     font-size: 25px;
   }
-  /* line 130, ../sass/style.scss */
-  header .container p {
+  /* line 210, ../sass/style.scss */
+  #cover-top .container p {
     font-size: 13px;
   }
 }
 @media only screen and (min-width: 551px) {
-  /* line 140, ../sass/style.scss */
-  header .container .trigger-menu-button {
+  /* line 220, ../sass/style.scss */
+  #cover-top .container .trigger-menu-button {
     display: none;
   }
-  /* line 144, ../sass/style.scss */
-  header .container nav .menu {
+  /* line 224, ../sass/style.scss */
+  #cover-top .container nav .menu {
     display: flex;
   }
-  /* line 148, ../sass/style.scss */
-  header .container .responsive-menu {
+  /* line 228, ../sass/style.scss */
+  #cover-top .container .responsive-menu {
     left: -100%;
+  }
+}
+/* line 237, ../sass/style.scss */
+#list-of-destionations .container {
+  margin: auto;
+  width: 1000px;
+}
+/* line 240, ../sass/style.scss */
+#list-of-destionations .container h1 {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: #666666;
+  margin: 80px auto 0;
+}
+/* line 247, ../sass/style.scss */
+#list-of-destionations .container p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #666666;
+  margin: 20px auto 80px;
+}
+/* line 253, ../sass/style.scss */
+#list-of-destionations .container .destination-box {
+  overflow: hidden;
+  background: #fff;
+  border-radius: 8px;
+  width: 100%;
+  margin: 10px 20px 50px 10px;
+  box-shadow: 0 13px 46px rgba(94, 217, 143, 0.2);
+}
+/* line 260, ../sass/style.scss */
+#list-of-destionations .container .destination-box .image-frame {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+/* line 265, ../sass/style.scss */
+#list-of-destionations .container .destination-box .image-frame img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+/* line 272, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details {
+  padding: 20px;
+}
+/* line 274, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details h3 {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #555;
+  margin-top: 0;
+}
+/* line 281, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details .detail {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #777;
+}
+/* line 285, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details .detail .icon-box {
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+/* line 289, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details .detail .icon-box .fa-map-marker {
+  color: #5ed98f;
+}
+/* line 292, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details .detail .icon-box .fa-suitcase {
+  color: #f6767c;
+}
+/* line 301, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details .row-column {
+  display: flex;
+  margin-top: 20px;
+}
+/* line 304, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details .row-column .column {
+  width: 50%;
+}
+/* line 307, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details .row-column .column .rates .fa-star {
+  color: #f6cc5a;
+}
+/* line 311, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details .row-column .column .views {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #555;
+  margin: 2px 0 0;
+}
+/* line 317, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details .row-column .column button {
+  float: right;
+  outline: none;
+  background: #5ed98f;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 8px;
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  transition: all 0.5s ease;
+}
+/* line 330, ../sass/style.scss */
+#list-of-destionations .container .destination-box .location-details .row-column .column button:hover {
+  background: #6af8a3;
+}
+
+@media only screen and (max-width: 1100px) {
+  /* line 343, ../sass/style.scss */
+  #list-of-destionations .container {
+    width: 95%;
   }
 }
