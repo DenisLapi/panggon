@@ -12,9 +12,9 @@ body {
 
 /* line 14, ../sass/style.scss */
 #cover-top {
-  position: relative;
   background: url("../images/cover.png") no-repeat center top;
   background-size: 100%;
+  overflow: hidden;
 }
 /* line 19, ../sass/style.scss */
 #cover-top .container .trigger-menu-button {
@@ -387,12 +387,12 @@ body {
   font-size: 12px;
   outline: none;
   position: relative;
-  transition: top 0.5s ease;
-  top: 0;
+  transition: top 1s ease;
+  top: 20px;
 }
 /* line 354, ../sass/style.scss */
 #list-of-destionations .container .load-more-button:hover {
-  top: -5px;
+  top: 15px;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -416,5 +416,56 @@ body {
   /* line 386, ../sass/style.scss */
   #list-of-destionations .container p {
     font-size: 13px;
+  }
+}
+/* line 394, ../sass/style.scss */
+#our-clients {
+  margin-top: 150px;
+}
+/* line 397, ../sass/style.scss */
+#our-clients .container h1 {
+  color: #666666;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+}
+/* line 403, ../sass/style.scss */
+#our-clients .container h1 span {
+  color: #5ed98f;
+}
+/* line 407, ../sass/style.scss */
+#our-clients .container .clients-logos {
+  padding: 0;
+  margin: 60px 0;
+  list-style: none;
+  display: table;
+  width: 100%;
+}
+/* line 413, ../sass/style.scss */
+#our-clients .container .clients-logos li {
+  display: table-cell;
+  text-align: center;
+}
+
+@media only screen and (max-width: 779px) {
+  /* line 424, ../sass/style.scss */
+  #our-clients .container h1 {
+    font-size: 25px;
+  }
+  /* line 426, ../sass/style.scss */
+  #our-clients .container h1 .break-line {
+    display: none;
+  }
+}
+@media only screen and (max-width: 750px) {
+  /* line 436, ../sass/style.scss */
+  #our-clients .clients-logos {
+    display: block !important;
+  }
+  /* line 438, ../sass/style.scss */
+  #our-clients .clients-logos li {
+    display: block !important;
+    margin-bottom: 20px;
   }
 }

@@ -12,9 +12,9 @@ body {
 
 // Header
 #cover-top {
-  position: relative;
   background:  url("../images/cover.png") no-repeat center top;
   background-size: 100%;
+  overflow: hidden;
   .container {
     .trigger-menu-button {
       margin-left: auto;
@@ -349,10 +349,10 @@ body {
       font-size: 12px;
       outline: none;
       position: relative;
-      transition: top 0.5s ease;
-      top: 0;
+      transition: top 1s ease;
+      top: 20px;
       &:hover {
-        top: -5px;
+        top: 15px;
       }
     }
   }
@@ -385,6 +385,59 @@ body {
       }
       p {
         font-size: 13px;
+      }
+    }
+  }
+}
+
+// Our clients
+#our-clients {
+  margin-top: 150px;
+  .container {
+    h1 {
+      color: #666666;
+      font-weight: 500;
+      font-family: $font-primary;
+      font-size: 25px;
+      line-height: 40px;
+      span {
+        color: #5ed98f;
+      }
+    }
+    .clients-logos {
+      padding: 0;
+      margin: 60px 0;
+      list-style: none;
+      display: table;
+      width: 100%;
+      li {
+        display: table-cell;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 779px) {
+  #our-clients {
+    .container {
+      h1 {
+        font-size: 25px;
+        .break-line {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 750px){
+  #our-clients {
+    .clients-logos {
+      display: block !important;
+      li {
+        display: block !important;
+        margin-bottom: 20px;
       }
     }
   }
