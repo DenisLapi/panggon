@@ -372,21 +372,22 @@ body {
 /* line 331, ../sass/style.scss */
 #list-of-destionations .container .destination-box .location-details .row-column .column button:hover {
   background: #6af8a3;
+  box-shadow: 0 13px 46px rgba(94, 217, 143, 0.2);
 }
 
 @media only screen and (max-width: 1100px) {
-  /* line 344, ../sass/style.scss */
+  /* line 345, ../sass/style.scss */
   #list-of-destionations .container {
     width: 95%;
   }
 }
 @media only screen and (max-width: 550px) {
-  /* line 353, ../sass/style.scss */
+  /* line 354, ../sass/style.scss */
   #list-of-destionations .container h1 {
     margin-top: 80px;
     font-size: 25px;
   }
-  /* line 357, ../sass/style.scss */
+  /* line 358, ../sass/style.scss */
   #list-of-destionations .container p {
     font-size: 13px;
   }
